@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 301.46 401.29">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+        strokeLinecap: round;
+        strokeLinejoin: round;
+        strokeWidth: 5px;
+      }
+    </style>
+  </defs>
+  <g id="animation_rigged" data-name="animation &amp;amp; rigged">
+    <g>
+      <path class="cls-1" d="m135.56,5.7h31.05c6.74,0,12.22,5.47,12.22,12.22v48.74c0,15.31-12.43,27.74-27.74,27.74h0c-15.31,0-27.74-12.43-27.74-27.74V17.92c0-6.74,5.47-12.22,12.22-12.22Z" transform="translate(22.38 -43.58) rotate(17.71)"/>
+      <circle class="cls-1" cx="128.9" cy="136.86" r="40.96"/>
+      <circle class="cls-1" cx="121.61" cy="207.52" r="24.95"/>
+      <line class="cls-1" x1="123.48" y1="239.92" x2="97.3" y2="321.91"/>
+      <line class="cls-1" x1="213.29" y1="299.8" x2="187.11" y2="381.79"/>
+      <line class="cls-1" x1="147.32" y1="230.53" x2="208.17" y2="291.39"/>
+      <line class="cls-1" x1="175.24" y1="125.74" x2="236.1" y2="186.6"/>
+      <line class="cls-1" x1="92.5" y1="331.17" x2="13.52" y2="365.38"/>
+      <line class="cls-1" x1="298.96" y1="187.73" x2="242.01" y2="191.74"/>
+      <line class="cls-1" x1="92.92" y1="108.16" x2="35.97" y2="112.16"/>
+      <line class="cls-1" x1="35.55" y1="398.79" x2="15.63" y2="371.9"/>
+      <line class="cls-1" x1="223.9" y1="396.3" x2="185.27" y2="389.36"/>
+      <line class="cls-1" x1="28.68" y1="120.18" x2="2.5" y2="202.17"/>
+    </g>
+  </g>
+</svg>

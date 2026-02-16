@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 373 381.63">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+      stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+      fill: none;
+      stroke: #fff;
+      strokeWidth: 5px;
+      }
+
+      .cls-2, .cls-3 {
+      strokeLinecap: round;
+      }
+
+      .cls-3 {
+      strokeLinejoin: round;
+      }
+    </style>
+  </defs>
+  <g id="precision">
+    <g>
+      <rect class="cls-1" x="2.5" y="2.5" width="205" height="376.63" rx="16.46" ry="16.46" />
+      <path class="cls-1"
+        d="m48,3.31h114v6.29c0,8.12-6.59,14.71-14.71,14.71H62.71c-8.12,0-14.71-6.59-14.71-14.71V3.31h0Z" />
+      <g>
+        <polyline class="cls-3" points="192 192.32 109.79 145.02 109.79 268.86 191.72 316" />
+        <polyline class="cls-3" points="224.38 315.19 304.91 268.86 304.91 145.02 224.19 191.46" />
+        <path class="cls-2" d="m224.65,95.81c27.36,15.4,53.22,33.04,80.85,47.73" />
+        <path class="cls-2" d="m191.33,95.93c-26.32,16.46-54.54,31.74-80.99,48.79" />
+      </g>
+      <line class="cls-3" x1="320.5" y1="225.31" x2="370.5" y2="225.31" />
+      <line class="cls-3" x1="272.82" y1="85.99" x2="308.18" y2="50.64" />
+      <line class="cls-3" x1="308.18" y1="361.99" x2="272.82" y2="326.64" />
+    </g>
+  </g>
+</svg>

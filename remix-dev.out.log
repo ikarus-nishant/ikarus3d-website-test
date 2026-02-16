@@ -1,0 +1,55 @@
+
+> ikarus-3d-website@5.2.7 dev
+> cross-env NODE_ENV=development dotenv -e ./config/dev/.env concurrently "npm run dev:css" "remix dev"
+
+[0] 
+[0] > ikarus-3d-website@5.2.7 dev:css
+[0] > tailwindcss -w -i ./styles/app.css -o app/styles/app.css --minify
+[0] 
+[0] Browserslist: caniuse-lite is outdated. Please run:
+[0]   npx update-browserslist-db@latest
+[0]   Why you should do it regularly: https://github.com/browserslist/update-db#readme
+[0] 
+[0] Rebuilding...
+[1] (node:29372) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+[1] (Use `node --trace-deprecation ...` to show where the warning was created)
+[0] 
+[0] Done in 1496ms.
+[1] email-providers is possibly an ESM only package and should be bundled with "serverDependenciesToBundle" in remix.config.js.
+[1] Remix App Server started at http://localhost:3000 (http://192.168.1.58:3000)
+[1] the current env is  development
+[1] Updating sitemap on 2026-02-16T11:39:17.452Z for domain http://localhost:3000...
+[1] ikarus3d_sitemap.xml updated development
+[1] {
+[1]   utm_source: 'not found',
+[1]   utm_medium: 'not found',
+[1]   utm_campaign: 'not found'
+[1] }
+[1] GET / 200 - - 899.269 ms
+[1] the current env is  development
+[1] Updating sitemap on 2026-02-16T11:42:14.341Z for domain http://localhost:3000...
+[1] ikarus3d_sitemap.xml updated development
+[1] {
+[1]   utm_source: 'not found',
+[1]   utm_medium: 'not found',
+[1]   utm_campaign: 'not found'
+[1] }
+[1] GET / 200 - - 70.124 ms
+[1] the current env is  development
+[1] Updating sitemap on 2026-02-16T11:42:29.461Z for domain http://localhost:3000...
+[1] ikarus3d_sitemap.xml updated development
+[1] {
+[1]   utm_source: 'not found',
+[1]   utm_medium: 'not found',
+[1]   utm_campaign: 'not found'
+[1] }
+[1] GET / 200 - - 92.897 ms
+[1] the current env is  development
+[1] Updating sitemap on 2026-02-16T11:45:35.620Z for domain http://localhost:3000...
+[1] ikarus3d_sitemap.xml updated development
+[1] {
+[1]   utm_source: 'not found',
+[1]   utm_medium: 'not found',
+[1]   utm_campaign: 'not found'
+[1] }
+[1] GET / 200 - - 67.589 ms

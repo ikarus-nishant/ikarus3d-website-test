@@ -1,0 +1,64 @@
+
+> ikarus-3d-website@5.2.7 dev
+> cross-env NODE_ENV=development dotenv -e ./config/dev/.env concurrently "npm run dev:css" "remix dev"
+
+[0] 
+[0] > ikarus-3d-website@5.2.7 dev:css
+[0] > tailwindcss -w -i ./styles/app.css -o app/styles/app.css --minify
+[0] 
+[0] Browserslist: caniuse-lite is outdated. Please run:
+[0]   npx update-browserslist-db@latest
+[0]   Why you should do it regularly: https://github.com/browserslist/update-db#readme
+[0] 
+[0] Rebuilding...
+[1] (node:19728) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+[1] (Use `node --trace-deprecation ...` to show where the warning was created)
+[0] 
+[0] Done in 1532ms.
+[1] email-providers is possibly an ESM only package and should be bundled with "serverDependenciesToBundle" in remix.config.js.
+[1] Remix App Server started at http://localhost:3000 (http://192.168.1.58:3000)
+[1] the current env is  development
+[1] Updating sitemap on 2026-02-16T11:46:51.182Z for domain https://beta.ikarus3d.com...
+[1] ikarus3d_sitemap.xml updated development
+[1] {
+[1]   utm_source: 'not found',
+[1]   utm_medium: 'not found',
+[1]   utm_campaign: 'not found'
+[1] }
+[1] GET / 200 - - 881.497 ms
+[1] the current env is  development
+[1] Updating sitemap on 2026-02-16T11:46:59.752Z for domain https://beta.ikarus3d.com...
+[1] ikarus3d_sitemap.xml updated development
+[1] {
+[1]   utm_source: 'not found',
+[1]   utm_medium: 'not found',
+[1]   utm_campaign: 'not found'
+[1] }
+[1] GET / 200 - - 82.032 ms
+[1] the current env is  development
+[1] Updating sitemap on 2026-02-16T11:47:01.376Z for domain https://beta.ikarus3d.com...
+[1] ikarus3d_sitemap.xml updated development
+[1] {
+[1]   utm_source: 'not found',
+[1]   utm_medium: 'not found',
+[1]   utm_campaign: 'not found'
+[1] }
+[1] GET / 200 - - 59.060 ms
+[1] the current env is  development
+[1] Updating sitemap on 2026-02-16T11:47:14.820Z for domain https://beta.ikarus3d.com...
+[1] ikarus3d_sitemap.xml updated development
+[1] {
+[1]   utm_source: 'not found',
+[1]   utm_medium: 'not found',
+[1]   utm_campaign: 'not found'
+[1] }
+[1] GET /undefined 200 - - 68.962 ms
+[1] the current env is  development
+[1] Updating sitemap on 2026-02-16T11:49:12.964Z for domain https://beta.ikarus3d.com...
+[1] ikarus3d_sitemap.xml updated development
+[1] {
+[1]   utm_source: 'not found',
+[1]   utm_medium: 'not found',
+[1]   utm_campaign: 'not found'
+[1] }
+[1] GET /why-us 200 - - 57.239 ms

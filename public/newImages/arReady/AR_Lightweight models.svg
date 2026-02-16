@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 463 463">
+  <defs>
+    <style>
+      .cls-1 {
+      stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-2 {
+      fill: none;
+      stroke: #fff;
+      strokeWidth: 5px;
+      }
+
+      .cls-2 {
+      strokeLinecap: round;
+      strokeLinejoin: round;
+      }
+    </style>
+  </defs>
+  <g id="Lightweight_model" data-name="Lightweight model">
+    <g>
+      <circle class="cls-1" cx="231.5" cy="231.5" r="229" />
+      <path class="cls-2"
+        d="m275.53,231.5h111.99c6.57,0,11.72-5.88,11.25-12.78-6.22-91.2-78.49-163.16-166.72-163.16S74.47,124.96,67.86,215.76c-.53,7.35,2.37,14.64,9.52,15.74h113.27" />
+      <path class="cls-2"
+        d="m229.09,198.9l-96.31-65.06,72.92,86.46c-2.8,14.23,6.29,28.15,20.53,31.24,14.41,3.12,28.62-6.03,31.74-20.43,3.12-14.41-6.03-28.62-20.43-31.74-2.85-.62-5.7-.75-8.45-.46h0Z" />
+    </g>
+  </g>
+</svg>
