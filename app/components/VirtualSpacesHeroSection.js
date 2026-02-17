@@ -114,10 +114,10 @@ const VirtualSpacesHeroSection = (props) => {
               }
             })
 
-            viewer.addEventListener('poster-dismissed', () => {                                                              
+            viewer.addEventListener('poster-dismissed', () => {
 
-              mvPointer.interactionPrompt = 'auto';
-              mvPointer.resetInteractionPrompt();
+              viewer.interactionPrompt = 'auto';
+              viewer.resetInteractionPrompt();
               if(hasInteracted)
                 setHasModelLoaded(true)
               hasInteracted = false;              

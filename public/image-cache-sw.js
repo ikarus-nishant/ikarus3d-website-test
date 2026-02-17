@@ -14,10 +14,11 @@ self.addEventListener("fetch", (event) => {
     ) {
       event.respondWith(
         fetch(event.request).then((response) => {
-          if (response && (response.status === 200 || response.status === 0)) {
-            return response;
-          }
-        }).catch((error)=>{console.log("Service Worker error while Fethcing", error)})
+          return response;
+        }).catch((error)=>{
+          console.log("Service Worker error while Fetching", error);
+          return new Response("Network error", { status: 408, statusText: "Request Timeout" });
+        })
       );
     }
   }
