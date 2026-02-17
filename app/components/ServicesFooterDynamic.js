@@ -178,7 +178,7 @@ const ServicesFooter = ({
 
   return (
     <>
-      {/* <div className="relative overflow-hidden dark:bg-tertiaryBackground flex flex-col bg-[url('../../public/images/ctaBg.png')] bg-cover tab:flex-row justify-center items-center py-smCustomHead tab:py-mdCustomHead  xl:py-xlCustom px-4 mob_old:px-10 tab:px-16 lap:px-24 xl:px-[10vw] xxl:px-[18vw]"> */}
+      {/* <div className="relative overflow-hidden dark:bg-tertiaryBackground flex flex-col bg-[url('https://d3cv7syas17klq.cloudfront.net/miscellaneous/ctaBg.png')] bg-cover tab:flex-row justify-center items-center py-smCustomHead tab:py-mdCustomHead  xl:py-xlCustom px-4 mob_old:px-10 tab:px-16 lap:px-24 xl:px-[10vw] xxl:px-[18vw]"> */}
       {/* <div className="z-10 tab:relative left-0 right-0 text-center w-full lap:w-[80%]"> */}
       {/* <div className="leading-relaxed text-ikarus-black dark:text-darkHeading">
             <SubSectionHeading text={ctaHeading} />            
@@ -210,7 +210,7 @@ const ServicesFooter = ({
       {/* </div> */}
 
       {/* <div className="bg-primaryDarkBg pt-5 pb-[74px]">
-        <div className="flex flex-col gap-[30px] md:gap-0 md:items-center bg-[url('../../public/images/ctaBg.png')] bg-cover pl-[62px] md:pl-[80px] pr-[100px] py-[58px] md:py-[70px] mx-16 md:mx-[86px] lg:mx-[112px] xl:mx-[138px] rounded-[10px]">
+        <div className="flex flex-col gap-[30px] md:gap-0 md:items-center bg-[url('https://d3cv7syas17klq.cloudfront.net/miscellaneous/ctaBg.png')] bg-cover pl-[62px] md:pl-[80px] pr-[100px] py-[58px] md:py-[70px] mx-16 md:mx-[86px] lg:mx-[112px] xl:mx-[138px] rounded-[10px]">
           <div className="z-10 tab:relative left-0 right-0 text-center w-full lap:w-[80%]">
             <div className="leading-relaxed text-ikarus-black dark:text-darkHeading">
               <SubSectionHeading text={ctaHeading} />

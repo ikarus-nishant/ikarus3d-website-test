@@ -175,7 +175,7 @@ export function MidPageCTA_without_image(props) {
 
 export default function MidPageCTA(props) {
   return (
-    <div className="relative text-white dark:bg-[#222B36] flex bg-[url('../../public/images/blue_bg.webp')] bg-no-repeat bg-cover bg-center flex-col gap-10 justify-center items-center py-smCustomHead tab:py-mdCustomHead  xl:py-xlCustom px-4 mob:px-10 tab:px-16 lap:px-24 desk:px-32 xl:px-[10vw] xxl:px-[18vw]">
+    <div className="relative text-white dark:bg-[#222B36] flex bg-[url('https://d3cv7syas17klq.cloudfront.net/miscellaneous/blue_bg.webp')] bg-no-repeat bg-cover bg-center flex-col gap-10 justify-center items-center py-smCustomHead tab:py-mdCustomHead  xl:py-xlCustom px-4 mob:px-10 tab:px-16 lap:px-24 desk:px-32 xl:px-[10vw] xxl:px-[18vw]">
       <div className="flex flex-col gap-[15px] lap:gap-[30px] xl:gap-[45px] text-center max-w-[80%]">
         <div className="text-center">
           <SubSectionHeading text={props.midPageCTA_details.heading} />

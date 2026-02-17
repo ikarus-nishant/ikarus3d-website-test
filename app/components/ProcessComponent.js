@@ -102,7 +102,7 @@ const ProcessComponent = (props) => {
                     setFirstColHover(true);
                     setSecondColHover(false);
                   }}
-                  className={`touch-text-select-none h-[162px] hover:h-auto group flex flex-col xl:gap-3 justify-end p-4 tab:p-6 md:py-10 md:pb-8 md:px-8 xl:pl-12 xl:pr-9 xl:pb-9 xl:pt-12 rounded-[10px] bg-[#11141A] group transition-colors duration-300 hover:bg-[url('../../public/images/howWeWorkCardBg.svg')] bg-cover hover:md:h-[290px] md:h-[290px] hover:xl:h-[384px] xl:h-[384px]`}
+                  className={`touch-text-select-none h-[162px] hover:h-auto group flex flex-col xl:gap-3 justify-end p-4 tab:p-6 md:py-10 md:pb-8 md:px-8 xl:pl-12 xl:pr-9 xl:pb-9 xl:pt-12 rounded-[10px] bg-[#11141A] group transition-colors duration-300 hover:bg-[url('https://d3cv7syas17klq.cloudfront.net/miscellaneous/howWeWorkCardBg.svg')] bg-cover hover:md:h-[290px] md:h-[290px] hover:xl:h-[384px] xl:h-[384px]`}
                 >
                   <p className="w-fit bg-gradient-to-r from-[#015EF1] to-[#489BE1] bg-clip-text text-transparent group-hover:from-white group-hover:to-white text-[41px] md:text-[48px] xl:text-[75px] xl:font-[800] font-[700] font-frankRuhlLibre leading-[48px] md:leading-[52px] -tracking-[0.471px] md:-tracking-[1px] xl:leading-[84px] xl:-tracking-[1px] transition-all duration-300">
                     0{index + 1}
@@ -136,7 +136,7 @@ const ProcessComponent = (props) => {
                     setSecondColHover(true);
                     setFirstColHover(false);
                   }}
-                  className={`h-[162px] hover:h-auto group flex flex-col xl:gap-3 justify-end p-4 tab:p-6 md:py-10 md:pb-8 md:px-8 xl:pl-12 xl:pr-9 xl:pb-9 xl:pt-12 rounded-[10px] bg-[#11141A] group transition-colors duration-300 hover:bg-[url('../../public/images/howWeWorkCardBg.svg')] bg-cover hover:md:h-[290px] md:h-[290px] hover:xl:h-[384px] xl:h-[384px]`}
+                  className={`h-[162px] hover:h-auto group flex flex-col xl:gap-3 justify-end p-4 tab:p-6 md:py-10 md:pb-8 md:px-8 xl:pl-12 xl:pr-9 xl:pb-9 xl:pt-12 rounded-[10px] bg-[#11141A] group transition-colors duration-300 hover:bg-[url('https://d3cv7syas17klq.cloudfront.net/miscellaneous/howWeWorkCardBg.svg')] bg-cover hover:md:h-[290px] md:h-[290px] hover:xl:h-[384px] xl:h-[384px]`}
                 >
                   <p className="w-fit bg-gradient-to-r from-[#015EF1] to-[#489BE1] bg-clip-text text-transparent group-hover:from-white group-hover:to-white text-[41px] md:text-[48px] xl:text-[75px] xl:font-[800] font-[700] font-frankRuhlLibre leading-[48px] md:leading-[52px] -tracking-[0.471px] md:-tracking-[1px] xl:leading-[84px] xl:-tracking-[1px] transition-all duration-300">
                     0{index + 1}

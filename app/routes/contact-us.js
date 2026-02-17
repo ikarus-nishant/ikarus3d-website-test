@@ -33,7 +33,7 @@ export function meta() {
     {property:"og:title", content: "Contact us - Ikarus 3D"},
     {property:"og:url", content: `${env.SITE_URL}/contact-us`},
     {property:"og:description", content:"Seeking Professional 3D services for your business? Let’s connect for a free consultation with our expert to discuss your 3D requirements."},
-    {property:"og:image", content: "../public/images/Header_Logo_D.png"},
+    {property:"og:image", content: `${env.CDN_BASE_URL}/miscellaneous/Header_Logo_D.png`},
     {property:"og:type", content: "website"},
     {property:"twitter:card", content: "summary_large_image"},
     {property:"twitter:site", content:"@ikarus_3d"},

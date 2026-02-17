@@ -146,7 +146,7 @@ const WhyUs = () => {
 
       {/* Section 2 */}
       <div
-        className="text-secondaryBackground overflow-hidden bg-[url('../../public/images/ctaBg_whyUs.png')] bg-cover"
+        className="text-secondaryBackground overflow-hidden bg-[url('https://d3cv7syas17klq.cloudfront.net/miscellaneous/ctaBg_whyUs.png')] bg-cover"
         // style={{
         //   backgroundImage: `url(${underwater})`,
         //   backgroundSize: "cover",

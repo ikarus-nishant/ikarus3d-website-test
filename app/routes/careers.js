@@ -257,7 +257,7 @@ const Careers = () => {
         </div>
       </div>
 
-      {/* <div className="text-secondaryBackground bg-[url('../../public/images/blue_bg.webp')] lap:bg-[url('../../public/images/blueJobs.webp')] bg-left-bottom bg-no-repeat bg-cover">
+      {/* <div className="text-secondaryBackground bg-[url('https://d3cv7syas17klq.cloudfront.net/miscellaneous/blue_bg.webp')] lap:bg-[url('https://d3cv7syas17klq.cloudfront.net/miscellaneous/blueJobs.webp')] bg-left-bottom bg-no-repeat bg-cover">
         <div className='w-full lap:w-[80%] ml-auto text-center py-smCustomHead tab_old:py-mdCustomHead  xl_old:py-xlCustom px-4 mob_old:px-10 tab_old:px-16 lap:px-24 desk:px-32 xl_old:px-[10vw] xxl_old:px-[18vw]'>
           <div className='flex flex-col items-center gap-[30px]'>
             <h2 className='text-3xl tab_old:text-5xl lap:text-7xl xl_old:text-9xl font-[500] dark:text-darkHeading'>

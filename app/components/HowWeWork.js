@@ -32,7 +32,7 @@ const HowWeWork = (props) => {
           {props.howWeWork.map((item, index)=>{
             if(index%2===0){
               return (
-                <div className={`group flex flex-col xl:gap-3 justify-end p-6 md:py-10 md:pb-8 md:px-8 xl:pl-12 xl:pr-9 xl:pb-9 xl:pt-12 rounded-[10px] ${index === 0 ? '' : 'mt-6 tab:mt-[80px] xl:mt-[100px]'} bg-[#11141A] group transition-colors duration-300 hover:bg-[url('../../public/images/howWeWorkCardBg.svg')] bg-cover h-[180px] md:h-[290px] xl:h-[384px]`}>
+                <div className={`group flex flex-col xl:gap-3 justify-end p-6 md:py-10 md:pb-8 md:px-8 xl:pl-12 xl:pr-9 xl:pb-9 xl:pt-12 rounded-[10px] ${index === 0 ? '' : 'mt-6 tab:mt-[80px] xl:mt-[100px]'} bg-[#11141A] group transition-colors duration-300 hover:bg-[url('https://d3cv7syas17klq.cloudfront.net/miscellaneous/howWeWorkCardBg.svg')] bg-cover h-[180px] md:h-[290px] xl:h-[384px]`}>
                   <p className="w-fit bg-gradient-to-r from-[#015EF1] to-[#489BE1] bg-clip-text text-transparent group-hover:bg-white text-[41px] md:text-[48px] xl:text-[75px] xl:font-[800] font-[700] font-frankRuhlLibre leading-[28px] md:leading-[52px] -tracking-[0.471px] md:-tracking-[1px] xl:leading-[84px] xl:-tracking-[1px] transition-all duration-300">
                     0{index+1}
                   </p>                                                   
@@ -58,7 +58,7 @@ const HowWeWork = (props) => {
           {props.howWeWork.map((item, index)=>{
             if(index %2 !== 0)
               return (
-                <div className={`group flex flex-col xl:gap-3 justify-end p-6 md:py-10 md:pb-8 md:px-8 xl:pl-12 xl:pr-9 xl:pb-9 xl:pt-12 rounded-[10px] ${index === 1 ? '' : 'mt-6 tab:mt-[80px] xl:mt-[100px]'} bg-[#11141A] group transition-colors duration-300 hover:bg-[url('../../public/images/howWeWorkCardBg.svg')] bg-cover h-[180px] md:h-[290px] xl:h-[384px]`}>
+                <div className={`group flex flex-col xl:gap-3 justify-end p-6 md:py-10 md:pb-8 md:px-8 xl:pl-12 xl:pr-9 xl:pb-9 xl:pt-12 rounded-[10px] ${index === 1 ? '' : 'mt-6 tab:mt-[80px] xl:mt-[100px]'} bg-[#11141A] group transition-colors duration-300 hover:bg-[url('https://d3cv7syas17klq.cloudfront.net/miscellaneous/howWeWorkCardBg.svg')] bg-cover h-[180px] md:h-[290px] xl:h-[384px]`}>
                   <p className="w-fit bg-gradient-to-r from-[#015EF1] to-[#489BE1] bg-clip-text text-transparent group-hover:bg-white text-[41px] md:text-[48px] xl:text-[75px] xl:font-[800] font-[700] font-frankRuhlLibre leading-[28px] md:leading-[52px] -tracking-[0.471px] md:-tracking-[1px] xl:leading-[84px] xl:-tracking-[1px] transition-all duration-300">
                     0{index+1}
                   </p>                                                   

@@ -1029,7 +1029,7 @@ const WorkAtIkarus = () => {
           </div>
         </div>
       </div>
-      <div className="bg-[url('../../public/images/red_bg_1.jpg')] lap:bg-[url('../../public/images/redHiringBanner1.webp')] bg-left-bottom bg-no-repeat relative z-10 bg-cover">
+      <div className="bg-[url('https://d3cv7syas17klq.cloudfront.net/miscellaneous/red_bg_1.jpg')] lap:bg-[url('https://d3cv7syas17klq.cloudfront.net/miscellaneous/redHiringBanner1.webp')] bg-left-bottom bg-no-repeat relative z-10 bg-cover">
         <div className="text-secondaryBackground flex flex-col text-center px-4 mob_old:px-10 tab_old:px-16 lap:px-0 lap:w-[55%] mx-auto lap:ml-[35%] py-smCustomHead tab_old:py-mdCustomHead xl_old:py-xlCustom">
           <div className="font-semibold justify-center text-center mx-auto">
             <HeroSectionHeading headings={["The 3D Cadet Program"]} />
