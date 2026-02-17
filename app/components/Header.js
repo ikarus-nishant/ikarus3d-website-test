@@ -1,15 +1,5 @@
 import { Fragment, useState, useEffect, useRef } from "react";
 import { Popover, Transition } from "@headlessui/react";
-import lightlogo from "../../public/images/Header_logo_L.png";
-import darklogo from "../../public/images/Header_Logo_D.png";
-import vricon from "../../public/images/WhiteNavbaricons/vr.png";
-import vtoicon from "../../public/images/WhiteNavbaricons/vto.png";
-import avataricon from "../../public/images/WhiteNavbaricons/3d avatar.png";
-import scanicon from "../../public/images/WhiteNavbaricons/3d scan.png";
-import vr from "../../public/images/DarkNavbaricons/vr.png";
-import vto from "../../public/images/DarkNavbaricons/vto.png";
-import avatar from "../../public/images/DarkNavbaricons/3d avatar.png";
-import scan from "../../public/images/DarkNavbaricons/3d scan.png";
 import { debounce } from "../utils/debounce";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { ChevronDownIcon } from "@heroicons/react/20/solid";

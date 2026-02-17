@@ -1,5 +1,8 @@
 import React, { useEffect, useRef } from "react";
-import marker from "../../public/images/marker.png";
+import getBrowserEnv from "../utils/browserEnv";
+
+const env = getBrowserEnv();
+const marker = `${env.CDN_BASE_URL}/miscellaneous/marker2.png`;
 
 export default function LeafletMap() {
   const mapContainer = useRef(null);

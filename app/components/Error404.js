@@ -1,5 +1,4 @@
 import React from "react";
-import astronaut from '../../public/images/astronaut.webp';
 import getBrowserEnv from '../utils/browserEnv';
 
 const env = getBrowserEnv();

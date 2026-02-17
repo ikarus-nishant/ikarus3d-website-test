@@ -1,11 +1,15 @@
 import React from "react";
 import CarouselView from "./CarouselView";
-import a1 from "../../public/images/Avatars/mainimg.webp";
-import a2 from "../../public/images/Avatars/a2.webp";
-import a3 from "../../public/images/Avatars/a3.webp";
-import a4 from "../../public/images/Avatars/a4.webp";
-import a5 from "../../public/images/Avatars/a5.webp";
 import { useState } from "react";
+import getBrowserEnv from "../utils/browserEnv";
+
+const env = getBrowserEnv();
+
+const a1 = `${env.CDN_BASE_URL}/Portfolio+Images/Renders/Avatars/ekko.webp`;
+const a2 = `${env.CDN_BASE_URL}/Portfolio+Images/Renders/Avatars/nativeAmerican.webp`;
+const a3 = `${env.CDN_BASE_URL}/Portfolio+Images/Renders/Avatars/nativeAmerican.webp`;
+const a4 = `${env.CDN_BASE_URL}/Portfolio+Images/Renders/Avatars/ekko.webp`;
+const a5 = `${env.CDN_BASE_URL}/Portfolio+Images/Renders/Avatars/nativeAmerican.webp`;
 
 const Avatars = () => {
   const [avatar, setAvatar] = useState(a4);

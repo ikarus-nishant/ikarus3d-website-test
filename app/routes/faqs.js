@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import Question from "~/components/Question";
 import { motion } from "framer-motion";
 import GetInTouch from "~/components/GetInTouch";
-import processofjob from "../../public/images/processofjob.png";
 import SubSectionText from "../components/text/SubSectionText";
 import { Footer } from "../components/Footer";
 import getBrowserEnv from "../utils/browserEnv";

@@ -1,5 +1,4 @@
 import React from "react";
-import ikaruslogo from "../../public/images/ikaruslogo.png";
 import PrimaryButton from "./primaryButton";
 import getBrowserEnv from "../utils/browserEnv";
 import LazyLoad from "react-lazyload";

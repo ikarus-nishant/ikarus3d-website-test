@@ -1,5 +1,8 @@
 import React from "react";
-import video from "../../public/videos/video.mp4";
+import getBrowserEnv from "../utils/browserEnv";
+
+const env = getBrowserEnv();
+const video = `${env.CDN_BASE_URL}/Videos/video.mp4`;
 
 const Video = (props) => {
   return (

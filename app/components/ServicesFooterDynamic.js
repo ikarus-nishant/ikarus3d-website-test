@@ -5,10 +5,6 @@ import SubSectionSubHeading from "./text/SubSectionSubHeading";
 import SubSectionText from "./text/SubSectionText";
 import getBrowserEnv from "../utils/browserEnv";
 import ReCAPTCHA from "react-google-recaptcha";
-import youGet1 from "../../public/images/team.png";
-import youGet2 from "../../public/images/DarkModeicons/Artboard 17.png";
-import youGet3 from "../../public/images/24x7.png";
-import youGet4 from "../../public/images/smoothIntegration.webp";
 import PrimaryCTASection from "./PrimaryCTASection";
 import Cookies from "js-cookie"
 const env = getBrowserEnv();

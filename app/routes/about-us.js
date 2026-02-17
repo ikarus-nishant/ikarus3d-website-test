@@ -1,34 +1,7 @@
 import React, { useState } from "react";
-import coreTeam from "../../public/images/CoreTeam3.webp";
-import Cube_video from "../../public/videos/Updated_Cube.mp4";
 import { motion } from "framer-motion";
 import GetInTouch from "~/components/GetInTouch";
-import pplBehindIkarus1 from "../../public/images/pplBehindIkarus1.png";
-import pplBehindIkarus2 from "../../public/images/pplBehindIkarus2.png";
-import ananya2 from "../../public/images/ananya2.png";
-import ishan from "../../public/images/ishan.webp";
-import archna from "../../public/images/archana.webp";
-import nishant from "../../public/images/nishantSir.webp";
-import aavleen from "../../public/images/aavleenMa'am.webp";
-import pritish from "../../public/images/pritishSir1.webp";
-import ananya from "../../public/images/ananyaMa'am.webp";
-import indiaToday from "../../public/images/indiaToday.webp";
-import logo2 from "../../public/images/logo2.webp";
-import ht from "../../public/images/ht.webp";
-import siliconIndia from "../../public/images/siliconIndia.webp";
-import globalHues from "../../public/images/globalHues.webp";
 import PplBehindIkarusSection from "../components/pplBehindIkarusSection";
-import axe from "../../public/images/axe.png";
-import yields from "../../public/images/yield.png";
-import mistakes from "../../public/images/mistakes.png";
-import passionate from "../../public/images/passionate.png";
-import almost from "../../public/images/almost.png";
-import hr1 from "../../public/images/hr1.jpg";
-import hr2 from "../../public/images/hr2.jpg";
-import mk1 from "../../public/images/mk1.jpg";
-import mk2 from "../../public/images/mk2.jpg";
-import tech1 from "../../public/images/tech1.jpg";
-import tech2 from "../../public/images/tech2.jpg";
 import SubSectionSubHeading from "../components/text/SubSectionSubHeading";
 import HeroSectionSubHeading from "../components/text/HeroSectionSubHeading";
 import Quote from "../components/text/Quote";
@@ -55,11 +28,8 @@ const AboutUs = () => {
     title: "3D Design",
     name: " Nishant Verma",
     designation: "Vice President 3D & Co-founder",
-    text: "It’s time for lateral thinking in 3D - to gather extensive insights of previous concepts and use them as stepping stones to find greater efficiencies. We’re recognizing how design has been implemented and unearthing newer ways to refine execution with 3D.",
+    text: "It's time for lateral thinking in 3D - to gather extensive insights of previous concepts and use them as stepping stones to find greater efficiencies. We're recognizing how design has been implemented and unearthing newer ways to refine execution with 3D.",
     img0: `${env.CDN_BASE_URL}/Core+Team/nishantSir.webp`,
-    img1: pplBehindIkarus1,
-    img2: pplBehindIkarus2,
-    img3: pplBehindIkarus2,
   };
   const HRsection = {
     title: "Human Resource",
@@ -67,39 +37,20 @@ const AboutUs = () => {
     designation: "Senior HR Manager",
     text: "We build visions into reality. Our very reason for existing is to induct individual excellence, channelize it into a cadre of brilliance and improve on our own previous conquests. We augment inspiration, we augment triumphs.",
     img0: `${env.CDN_BASE_URL}/Core+Team/pragyaMa'am.webp`,
-    img1: hr1,
-    img2: hr2,
-    img3: pplBehindIkarus2,
   };
-  // const Techsection = {
-  //   title: "Technology",
-  //   name: " Pritish Sehzpaul",
-  //   designation: "Head of Technology",
-  //   text: "We’re on an endeavour to become a team capable of next generation innovation with an in-depth knowledge of our domain and technology. Finding ourselves at the cross-section of tech, art, and physics, we’re not just engineers, but creative problem solvers.",
-  //   img0: `${env.CDN_BASE_URL}/Core+Team/pritishSir1.webp`,
-  //   img1: tech1,
-  //   img2: tech2,
-  //   img3: pplBehindIkarus2,
-  // };
   const Marketingsection = {
     title: "Marketing",
     name: "Ishan Kumar Giddu",
     designation: "Interim Head of Marketing",
     text: "Brands are not built with content, but with stories. At Ikarus, we document our stories most earnestly, so anyone who joins us either as a client or as a colleague, they can see where we come from, and feel our passion towards our goals. Curiosity guides us, and data directs us. We add innovation to our execution with the latest tech and a team that is willing to put in their best. From strategy to design, our commitment in marketing is to foster growth for all, ensuring we soar just right.",
     img0: `${env.CDN_BASE_URL}/Core+Team/ishan.webp`,
-    img1: mk1,
-    img2: mk2,
-    img3: pplBehindIkarus2,
   };
   const Businesssection = {
     title: "Business Development",
     name: " Archna Luthra",
     designation: "Head of IR",
-    text: "We as a team, aim to identify opportunities to build win-win Business Partnerships with our clients by uncovering their needs and requirements. To grow our business capabilities and synergies, we focus on creating development plans and forecasting growth projections to entail new partnerships and bringing tremendous efficiency to our partners’ modus operandi.",
+    text: "We as a team, aim to identify opportunities to build win-win Business Partnerships with our clients by uncovering their needs and requirements. To grow our business capabilities and synergies, we focus on creating development plans and forecasting growth projections to entail new partnerships and bringing tremendous efficiency to our partners' modus operandi.",
     img0: `${env.CDN_BASE_URL}/Core+Team/archana.webp`,
-    img1: pplBehindIkarus1,
-    img2: pplBehindIkarus2,
-    img3: pplBehindIkarus2,
   };
 
   const pplBehinIkarusdMobView = [

@@ -1,10 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
 import PortfolioComponent from "../components/Portfolio";
-import luxeGlasses from "../../public/images/Eyewear/5.webp";
-import fabricIconicChair from "../../public/images/Furniture/Chairs/FabricIconicChair.webp";
-import skates from "../../public/images/Shoe/cover.webp";
-import LVbag from "../../public/images/Accessories/LVbag.webp";
-import gamingHeadphones from "../../public/images/Electronics/headphone.webp";
 import SideMenu from "../components/SideMenu";
 import {
   shoeModels,
@@ -19,17 +14,23 @@ import {
   avatarModels,
   spaceModels,
 } from "../../public/data/modelsData";
-import brownBlack from "../../public/images/Furniture/Tables/brownBlack.webp";
-import whiteBed from "../../public/images/Furniture/Beds/whiteBed.webp";
-import havenView from "../../public/images/Furniture/Sofas/HavenviewWillough.webp";
-import woodBrown from "../../public/images/Furniture/Cabinets/woodBrown.webp";
-import boy from "../../public/images/Avatars/Boy.webp";
-import bedroom from "../../public/images/Spaces/bedroom.webp";
 import { debounce } from "../utils/debounce";
 import getBrowserEnv from "../utils/browserEnv";
 import {siteMapTags as nextRoute } from "./careers";
 import useViewportWidth from "../hooks/useViewportWidth";
 const env = getBrowserEnv();
+
+const luxeGlasses = `${env.CDN_BASE_URL}/Portfolio+Images/Renders/Eyewear/5.webp`;
+const fabricIconicChair = `${env.CDN_BASE_URL}/Portfolio+Images/Renders/Furniture/Chairs/FabricIconicChair.webp`;
+const skates = `${env.CDN_BASE_URL}/Portfolio+Images/Renders/Shoes/cover.webp`;
+const LVbag = `${env.CDN_BASE_URL}/Portfolio+Images/Renders/Accessories/LVbag.webp`;
+const gamingHeadphones = `${env.CDN_BASE_URL}/Portfolio+Images/Renders/Electronics/headphone.webp`;
+const brownBlack = `${env.CDN_BASE_URL}/Portfolio+Images/Renders/Furniture/Tables/brownBlack.webp`;
+const whiteBed = `${env.CDN_BASE_URL}/Portfolio+Images/Renders/Furniture/Beds/whiteBed.webp`;
+const havenView = `${env.CDN_BASE_URL}/Portfolio+Images/Renders/Furniture/Sofas/HavenviewWillough.webp`;
+const woodBrown = `${env.CDN_BASE_URL}/Portfolio+Images/Renders/Furniture/Cabinets/woodBrown.webp`;
+const boy = `${env.CDN_BASE_URL}/Portfolio+Images/Renders/Avatars/ekko.webp`;
+const bedroom = `${env.CDN_BASE_URL}/Portfolio+Images/Renders/Spaces/bedroom.webp`;
 
 export const siteMapTags = () => {
   return [

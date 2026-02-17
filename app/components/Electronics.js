@@ -1,17 +1,20 @@
 import React from "react";
 import CarouselView from "./CarouselView";
-import e1 from "../../public/images/Electronics/CAMERAMAINIMG.webp";
-import e2 from "../../public/images/Electronics/ALEXA.webp";
-import e3 from "../../public/images/Electronics/washingmachine.webp";
-import e4 from "../../public/images/Electronics/desktop.webp";
-import e5 from "../../public/images/Electronics/headphone.webp";
-import e6 from "../../public/images/Electronics/laptop.webp";
-import e7 from "../../public/images/Electronics/mobile.webp";
-import e8 from "../../public/images/Electronics/mouse.webp";
-import e9 from "../../public/images/Electronics/vaccum.webp";
 import { useState } from "react";
 import Model from "./Model";
 import LazyLoad from "react-lazyload";
+import getBrowserEnv from "../utils/browserEnv";
+
+const env = getBrowserEnv();
+
+const e1 = `${env.CDN_BASE_URL}/Portfolio+Images/Renders/Electronics/CAMERAMAINIMG.webp`;
+const e2 = `${env.CDN_BASE_URL}/Portfolio+Images/Renders/Electronics/earbuds.webp`;
+const e3 = `${env.CDN_BASE_URL}/Portfolio+Images/Renders/Electronics/washingmachine.webp`;
+const e4 = `${env.CDN_BASE_URL}/Portfolio+Images/Renders/Electronics/desktop.webp`;
+const e5 = `${env.CDN_BASE_URL}/Portfolio+Images/Renders/Electronics/headphone.webp`;
+const e6 = `${env.CDN_BASE_URL}/Portfolio+Images/Renders/Electronics/laptop.webp`;
+const e7 = `${env.CDN_BASE_URL}/Portfolio+Images/Renders/Electronics/mobile.webp`;
+const e8 = `${env.CDN_BASE_URL}/Portfolio+Images/Renders/Electronics/mouse.webp`;
 
 const Electronics = () => {
   const [electronics, setElectronics] = useState(

@@ -1,17 +1,20 @@
 import React from "react";
-import a1 from "../../public/images/Accessories/bag.webp";
-import a2 from "../../public/images/Accessories/bag2.webp";
-import a3 from "../../public/images/Accessories/bag3.webp";
-import a4 from "../../public/images/Accessories/bag4.webp";
-import a5 from "../../public/images/Accessories/1-1.webp";
-import a6 from "../../public/images/Accessories/jwell.webp";
-import a7 from "../../public/images/Accessories/ring.webp";
-import a8 from "../../public/images/Accessories/watch.webp";
 import LazyLoad from "react-lazyload";
-import logo from "../../public/images/ikarus logo.png";
 import { useState, useEffect } from "react";
-
 import Model from "./Model";
+import getBrowserEnv from "../utils/browserEnv";
+
+const env = getBrowserEnv();
+
+const a1 = `${env.CDN_BASE_URL}/Portfolio+Images/Renders/Accessories/LVbag.webp`;
+const a2 = `${env.CDN_BASE_URL}/Portfolio+Images/Renders/Accessories/bag2.webp`;
+const a3 = `${env.CDN_BASE_URL}/Portfolio+Images/Renders/Accessories/bag3.webp`;
+const a4 = `${env.CDN_BASE_URL}/Portfolio+Images/Renders/Accessories/bag4.webp`;
+const a5 = `${env.CDN_BASE_URL}/Portfolio+Images/Renders/Accessories/heartRing.webp`;
+const a6 = `${env.CDN_BASE_URL}/Portfolio+Images/Renders/Accessories/earrings.webp`;
+const a7 = `${env.CDN_BASE_URL}/Portfolio+Images/Renders/Accessories/ring.webp`;
+const a8 = `${env.CDN_BASE_URL}/Portfolio+Images/Renders/Accessories/watch.webp`;
+const logo = `${env.CDN_BASE_URL}/miscellaneous/ikaruslogo.png`;
 
 const Accessories = () => {
   const string = "mod/Accessories/Handbag1.glb";
