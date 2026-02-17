@@ -15,6 +15,15 @@ import RetainerSectionModal from "./RetainerSectionModal";
 
 const env = getBrowserEnv();
 
+const vricon = `${env.CDN_BASE_URL}/WhiteNavbaricons/vr.png`;
+const vtoicon = `${env.CDN_BASE_URL}/WhiteNavbaricons/vto.png`;
+const avataricon = `${env.CDN_BASE_URL}/WhiteNavbaricons/3d+avatar.png`;
+const scanicon = `${env.CDN_BASE_URL}/WhiteNavbaricons/3d+scan.png`;
+const vr = `${env.CDN_BASE_URL}/DarkNavbaricons/vr.png`;
+const vto = `${env.CDN_BASE_URL}/DarkNavbaricons/vto.png`;
+const avatar = `${env.CDN_BASE_URL}/DarkNavbaricons/3d+avatar.png`;
+const scan = `${env.CDN_BASE_URL}/DarkNavbaricons/3d+scan.png`;
+
 const solutions = [
   {
     name: "AR 3D Modeling Services",
