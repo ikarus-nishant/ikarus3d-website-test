@@ -1,10 +1,20 @@
 {
-  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "remix",
+  "installCommand": "npm install --force",
   "buildCommand": "npm run build",
-  "rewrites": [
+  "outputDirectory": "public",
+  "headers": [
     {
-      "source": "/(.*)",
-      "destination": "/api/index"
+      "source": "/build/(.*)",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+      ]
+    },
+    {
+      "source": "/favicon(.*)",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=86400" }
+      ]
     }
   ]
 }

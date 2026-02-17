@@ -1,0 +1,16 @@
+# Large static assets - serve these from a CDN (CDN_BASE_URL)
+public/images
+public/mod
+public/videos
+public/newImages
+
+# Docker files
+Dockerfile
+Dockerfile.dev
+.dockerignore
+
+# Config files for non-Vercel environments
+config/
+
+# Dev files
+.history

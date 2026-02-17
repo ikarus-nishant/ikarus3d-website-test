@@ -17,11 +17,7 @@
     "build:css": "tailwindcss -m -i ./styles/app.css -o app/styles/app.css --minify",
     "local": "cross-env NODE_ENV=development dotenv -e ./config/local/.env concurrently \"npm run dev:css\" \"remix dev\"",
     "dev": "cross-env NODE_ENV=development dotenv -e ./config/dev/.env concurrently \"npm run dev:css\" \"remix dev\"",
-    "dev:css": "tailwindcss -w -i ./styles/app.css -o app/styles/app.css --minify",
-    "dev:remix": "remix watch",
-    "uat": "cross-env NODE_ENV=uat dotenv -e ./config/uat/.env remix-serve build",
-    "start": "cross-env NODE_ENV=production dotenv -e ./config/prod/.env remix-serve build",
-    "start:dev": "cross-env NODE_ENV=production dotenv -e ./config/dev/.env remix-serve build"
+    "dev:css": "tailwindcss -w -i ./styles/app.css -o app/styles/app.css --minify"
   },
   "dependencies": {
     "@google/model-viewer": "3.2.1",
@@ -33,7 +29,6 @@
     "@reduxjs/toolkit": "1.9.1",
     "@remix-run/node": "1.14.0",
     "@remix-run/react": "1.15.0",
-    "@remix-run/serve": "1.14.0",
     "@remix-run/vercel": "1.14.0",
     "@splidejs/react-splide": "0.7.12",
     "@splidejs/splide-extension-auto-scroll": "0.5.3",
@@ -84,14 +79,13 @@
     "dotenv": "16.0.3",
     "dotenv-cli": "7.2.1",
     "eslint": "8.23.1",
-    "nodemon": "2.0.19",
     "npm-run-all": "4.1.5",
     "postcss": "8.4.18",
     "tailwindcss": "3.2.2",
     "typescript": "4.7.4"
   },
   "engines": {
-    "node": ">=18"
+    "node": ">=14"
   },
   "overrides": {
     "react-lazyload": {

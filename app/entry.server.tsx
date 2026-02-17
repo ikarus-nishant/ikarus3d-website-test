@@ -4,8 +4,6 @@ import { Response } from "@remix-run/node";
 import { RemixServer } from "@remix-run/react";
 import isbot from "isbot";
 import { renderToPipeableStream } from "react-dom/server";
-import { generateSitemap } from "./routes/sitemap[.]xml";
-
 const ABORT_DELAY = 5000;
 
 export default function handleRequest(
@@ -110,12 +108,3 @@ function handleBrowserRequest(
     setTimeout(abort, ABORT_DELAY);
   });
 }
-
-// This generates sitemap for the website dynamically from remix routes. The code is in sitemap[.]xml.jsx
-
-async function generateDynamicSitemap() {
-  var dynamicSitemap = await generateSitemap();
-  return dynamicSitemap;
-}
-
-generateDynamicSitemap();

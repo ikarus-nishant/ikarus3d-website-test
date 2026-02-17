@@ -28,18 +28,6 @@ npm start
 
 Now you'll need to pick a host to deploy it to.
 
-### Vercel (Without Docker)
-
-This repository no longer includes Docker files. Deploy directly on Vercel:
-
-1. Push this project to GitHub/GitLab/Bitbucket.
-2. Import the repo in Vercel.
-3. Set:
-   - Build Command: `npm run build`
-   - Install Command: `npm install`
-   - Start Command: `npm start`
-4. Add required environment variables from `config/.env.example` (and the additional values used in `app/env.server.js`) in Vercel Project Settings.
-
 ### DIY
 
 If you're familiar with deploying express applications you should be right at home just make sure to deploy the output of `remix build`
@@ -69,3 +57,4 @@ userSession cookie is unavailable or wrong email id in the cookie - Error page
 Just the link https://ikarus3d.com/contact-us/thank-you with or without correct Cookie - Error page
 ## Remix Issues and Resolutions
 Environment variables not loading - Create a `.env` file in root of the project. __Don't commit `.env` file to git.__ Remix has built-in support for dotenv. `.env` files are only for development. You should not use them in production, so Remix doesn't load them when running remix serve. You'll need to follow your host's guides on adding secrets to your production server. [Source 1](https://github.com/remix-run/remix/issues/5341) [Source 2](https://remix.run/docs/en/1.15.0/guides/envvars#local-development)
+
